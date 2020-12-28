@@ -1,6 +1,4 @@
-# Streamlit Image Classifier
-
-# [React](https://reactjs.org/) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/taeokimeng/streamlit-image-classifier/blob/main/LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/taeokimeng/streamlit-image-classifier)
+# Streamlit Image Classifier &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/taeokimeng/streamlit-image-classifier/blob/main/LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/taeokimeng/streamlit-image-classifier)
 
 Streamlit Image Classifier tells you what the uploaded image is.
 
