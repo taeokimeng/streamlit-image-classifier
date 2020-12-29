@@ -2,11 +2,18 @@ import streamlit as st
 from PIL import Image
 
 def upload_image():
-    uploaded_image = st.file_uploader("Please choose an image file")
+    uploaded_image = st.file_uploader("Please choose an image file", type=["png", "jpg", "jpeg"])
+
     if uploaded_image is not None:
-        image = Image.open(uploaded_image)
-        st.image(image, caption=f"Uploaded image", width=196, use_column_width=False)
-        return image
+        try:
+            image = Image.open(uploaded_image)
+        except Exception: # Check invalid image
+            st.error("Error: Invalid image")
+        else:
+            st.image(image, caption=f"Uploaded image", width=196, use_column_width=False)
+            return image
+
+
 
     """
     # This is for multiple files upload (on going...)
